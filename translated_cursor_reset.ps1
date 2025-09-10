@@ -7,6 +7,20 @@ $YELLOW = "`e[33m"
 $BLUE = "`e[34m"
 $NC = "`e[0m"
 
+Clear-Host
+Write-Host @"
+
+    ██████╗██╗   ██╗██████╗ ███████╗ ██████╗ ██████╗ 
+   ██╔════╝██║   ██║██╔══██╗██╔════╝██╔═══██╗██╔══██╗
+   ██║     ██║   ██║██████╔╝███████╗██║   ██║██████╔╝
+   ██║     ██║   ██║██╔══██╗╚════██║██║   ██║██╔══██╗
+   ╚██████╗╚██████╔╝██║  ██║███████║╚██████╔╝██║  ██║
+    ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝
+
+"@
+Write-Host "$BLUE================================$NC"
+Write-Host "BY SUJITH copyright 2025"
+
 $STORAGE_FILE = "$env:APPDATA\Cursor\User\globalStorage\storage.json"
 $BACKUP_DIR = "$env:APPDATA\Cursor\User\globalStorage\backups"
 
